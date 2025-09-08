@@ -11,7 +11,7 @@ const Hero = () => {
             <div className='relative z-20 flex flex-1 flex-col xl:w-1/2 animate-slideInLeft'>
                 
                 {/* Badge */}
-                <div className='inline-flex items-center gap-2 px-4 py-2 bg-green-50/10 rounded-full border border-green-50/20 animate-slideInDown mb-8'>
+                <div className='inline-flex items-center gap-2 px-4 py-2 animate-slideInDown mb-8'>
                     <Image
                         src="/warehouse.svg"
                         alt="warehouse"
@@ -19,7 +19,7 @@ const Hero = () => {
                         height={24}
                         className='animate-bounce'
                     />
-                    <span className='regular-14 text-green-50 font-medium'>TRUSTED LOGISTICS PARTNER</span>
+                    <h2 className='regular-14 text-green-50 bold-18  md:bold-28'>YOUR TRUSTED LOGISTICS PARTNER</h2>
                 </div>
 
                 {/* Main Heading */}

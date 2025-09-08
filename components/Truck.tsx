@@ -15,7 +15,7 @@ const OperationCard = ({backgroundImage, title, subtitle, metric, index}: Operat
   
   return (
     <div className={`
-      relative h-full w-full min-w-[350px] ${backgroundImage} 
+      relative h-full w-full min-w-[450px] ${backgroundImage} 
       bg-cover bg-center bg-no-repeat rounded-2xl overflow-hidden
       hover:scale-105 transition-all duration-500 animate-scaleIn ${delayClass}
       shadow-xl hover:shadow-2xl group
@@ -165,41 +165,31 @@ const Truck = () => {
               </div>
               
               <div className='flex items-center gap-3 p-4 rounded-xl bg-blue-50/10 border border-blue-50/20'>
-                <div className='w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0'>
+                <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
                 <span className='regular-14 text-gray-50'>Verified deliveries</span>
               </div>
               
               <div className='flex items-center gap-3 p-4 rounded-xl bg-orange-50/10 border border-orange-50/20'>
-                <div className='w-8 h-8 bg-orange-50 rounded-lg flex items-center justify-center flex-shrink-0'>
+                <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
                 <span className='regular-14 text-gray-50'>Multi-stop efficiency</span>
               </div>
               
               <div className='flex items-center gap-3 p-4 rounded-xl bg-purple-50/10 border border-purple-50/20'>
-                <div className='w-8 h-8 bg-purple-50 rounded-lg flex items-center justify-center flex-shrink-0'>
+                <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
                 <span className='regular-14 text-gray-50'>Complete accountability</span>
               </div>
             </div>
-
-            {/* CTA Buttons */}
-            <div className='flex flex-col sm:flex-row gap-4'>
-              <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-lg'>
-                Start Your Distribution
-              </button>
-              <button className='border border-green-50 text-green-50 px-8 py-4 rounded-xl hover:bg-green-50 hover:text-white transition-all duration-300 font-medium'>
-                View Coverage Areas
-              </button>
-            </div>
           </div>
 
           {/* Right Side - Stats Card */}
           <div className='relative animate-slideInRight delay-400'>
-            <div className='bg-gradient-to-br from-green-50 to-green-60 rounded-3xl p-8 lg:p-12 text-white shadow-2xl relative overflow-hidden'>
+            <div className='bg-gradient-to-br bg-green-50 rounded-3xl p-8 lg:p-12 text-white shadow-2xl relative overflow-hidden'>
               
               {/* Background Pattern */}
               <div className='absolute inset-0 opacity-10'>

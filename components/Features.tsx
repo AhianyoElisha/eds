@@ -78,16 +78,16 @@ interface FeatureItemProps {
 const FeatureItem = ({title, icon, variant, description, index}: FeatureItemProps) => {
   const borderColors = [
     'border-green-50/30',
-    'border-blue-50/30',
-    'border-orange-50/30',
-    'border-purple-50/30'
+    'border-green-50/30',
+    'border-green-50/30',
+    'border-green-50/30'
   ];
 
   const iconColors = [
     'bg-green-50',
-    'bg-blue-50', 
-    'bg-orange-50',
-    'bg-purple-50'
+    'bg-green-50', 
+    'bg-green-50',
+    'bg-green-50'
   ];
 
   const delayClass = `delay-${(index + 1) * 100}`;
