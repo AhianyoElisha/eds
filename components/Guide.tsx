@@ -9,7 +9,7 @@ const Guide = () => {
         {/* Header Section */}
         <div className='text-center mb-16 animate-slideInUp'>
           <div className='inline-flex items-center gap-2 mb-4 px-4 py-2 bg-green-50/10 rounded-full border border-green-50/20'>
-            <Image src="/warehouse.svg" alt='warehouse' width={24} height={24} className='animate-bounce' />
+            <Image src="/truck-line.svg" alt='truck line' width={24} height={24} className='animate-bounce' />
             <p className='regular-14 text-green-50 font-medium'>
               YOUR LOGISTICS PARTNER
             </p>

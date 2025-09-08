@@ -13,10 +13,10 @@ const Hero = () => {
                 {/* Badge */}
                 <div className='inline-flex items-center gap-2 px-4 py-2 animate-slideInDown mb-8'>
                     <Image
-                        src="/warehouse.svg"
-                        alt="warehouse"
-                        width={24}
-                        height={24}
+                        src="/truck-line.svg"
+                        alt="truck line"
+                        width={30}
+                        height={30}
                         className='animate-bounce'
                     />
                     <h2 className='regular-14 text-green-50 bold-18  md:bold-28'>YOUR TRUSTED LOGISTICS PARTNER</h2>
@@ -81,7 +81,7 @@ const Hero = () => {
                         <div className='flexBetween'>
                             <p className='regular-16 text-gray-20'>Distribution Hub</p>
                             <Image
-                                src="/warehouse.svg"
+                                src="/truck-line.svg"
                                 alt='warehouse'
                                 width={24}
                                 height={24}

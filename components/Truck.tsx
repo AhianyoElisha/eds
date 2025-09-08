@@ -29,7 +29,7 @@ const OperationCard = ({backgroundImage, title, subtitle, metric, index}: Operat
         <div className='flex items-center gap-4 animate-slideInDown'>
           <div className='rounded-2xl bg-white/20 backdrop-blur-sm p-3 group-hover:bg-green-50 transition-all duration-300'>
             <Image
-              src="/warehouse.svg"
+              src="/truck-line.svg"
               alt='operation'
               width={24}
               height={24}
@@ -72,7 +72,7 @@ const Truck = () => {
         <div className='text-center mb-16 animate-fadeIn'>
           <div className='inline-flex items-center gap-2 mb-6 px-4 py-2 bg-green-50/10 rounded-full border border-green-50/20'>
             <Image
-              src="/warehouse.svg"
+              src="/truck-line.svg"
               alt='operations'
               width={24}
               height={24}
