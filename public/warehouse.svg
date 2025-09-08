@@ -1,0 +1,21 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warehouse building -->
+  <rect x="5" y="20" width="40" height="25" fill="#22c55e" stroke="#16a34a" stroke-width="1"/>
+  
+  <!-- Roof -->
+  <polygon points="25,5 5,20 45,20" fill="#16a34a"/>
+  
+  <!-- Main door -->
+  <rect x="20" y="28" width="10" height="17" fill="#374151"/>
+  
+  <!-- Small windows -->
+  <rect x="8" y="25" width="6" height="6" fill="#1f2937"/>
+  <rect x="36" y="25" width="6" height="6" fill="#1f2937"/>
+  
+  <!-- Loading bay -->
+  <rect x="8" y="35" width="8" height="10" fill="#6b7280"/>
+  <rect x="34" y="35" width="8" height="10" fill="#6b7280"/>
+  
+  <!-- Chimney -->
+  <rect x="35" y="8" width="3" height="12" fill="#374151"/>
+</svg>

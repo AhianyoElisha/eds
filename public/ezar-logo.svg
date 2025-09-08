@@ -1,0 +1,13 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Truck icon -->
+  <rect x="2" y="18" width="16" height="8" rx="2" fill="#22c55e"/>
+  <rect x="18" y="14" width="12" height="12" rx="2" fill="#16a34a"/>
+  <circle cx="8" cy="30" r="3" fill="#374151"/>
+  <circle cx="24" cy="30" r="3" fill="#374151"/>
+  <circle cx="8" cy="30" r="1.5" fill="#f3f4f6"/>
+  <circle cx="24" cy="30" r="1.5" fill="#f3f4f6"/>
+  
+  <!-- Text -->
+  <text x="38" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">EZAR</text>
+  <text x="38" y="30" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">DELIVERY SERVICE</text>
+</svg>
