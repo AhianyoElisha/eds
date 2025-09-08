@@ -25,7 +25,7 @@ const Hero = () => {
                 {/* Main Heading */}
                 <h1 className='bold-52 lg:bold-88 animate-slideInUp mb-6'>
                     <span className='block text-gray-90'>Ezar Delivery</span>
-                    <span className='block text-green-50'>Service</span>
+                    <span className='block text-green-50'>Services</span>
                 </h1>
                 
                 <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px] animate-slideInUp delay-100 mb-11'>

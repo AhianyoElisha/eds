@@ -11,8 +11,8 @@ const Features = () => {
         <div className='text-center mb-16 animate-fadeIn'>
           <div className='inline-flex items-center gap-2 mb-6 px-4 py-2 bg-green-50/10 rounded-full border border-green-50/20'>
             <Image
-              src="/truck-line.svg"
-              alt='truck line'
+              src="/lightbulb-flash-line.svg"
+              alt='lightbulb'
               width={24}
               height={24}
               className='animate-bounce'

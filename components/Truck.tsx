@@ -72,7 +72,7 @@ const Truck = () => {
         <div className='text-center mb-16 animate-fadeIn'>
           <div className='inline-flex items-center gap-2 mb-6 px-4 py-2 bg-green-50/10 rounded-full border border-green-50/20'>
             <Image
-              src="/truck-line.svg"
+              src="/settings-5-fill.svg"
               alt='operations'
               width={24}
               height={24}
