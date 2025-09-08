@@ -4,7 +4,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <section className='bg-white py-20 overflow-hidden'>
+    <section id="services" className='bg-white py-20 overflow-hidden'>
       <div className='max-container padding-container relative w-full'>
         
         {/* Header Section */}

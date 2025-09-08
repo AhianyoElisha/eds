@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_ezar_works', label: 'How Ezar Works?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '#home', key: 'home', label: 'Home' },
+  { href: '#vision-mission', key: 'vision_mission', label: 'About Us' },
+  { href: '#operations', key: 'operations', label: 'Operations' },
+  { href: '#services', key: 'services', label: 'Services' },
+  { href: '#contact', key: 'contact', label: 'Contact Us' },
 ];
 
 // TRUCK SECTION
@@ -69,8 +69,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Operations Manager', value: '+233-456-7890' },
-    { label: 'Email', value: 'operations@ezardelivery.com' },
+    { label: 'Operations Manager', value: '+23355 877 3182' },
+    { label: 'Email', value: 'ezardelivery2@gmail.com' },
   ],
 };
 

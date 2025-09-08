@@ -53,8 +53,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the website.
 
 ## 📞 Contact Us
 
-- **Operations Manager**: +233-456-7890
-- **Email**: operations@ezardelivery.com
+- **Operations Manager**: +23355 877 3182
+- **Email**: ezardelivery2@gmail.com
 
 ---
 

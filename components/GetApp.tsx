@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const GetApp = () => {
   return (
-    <section className='w-full py-20 bg-gradient-to-r from-green-50 to-green-90'>
+    <section id="contact" className='w-full py-20 bg-gradient-to-r from-green-50 to-green-90'>
       <div className='max-container padding-container'>
         {/* Main CTA Container */}
         <div className='bg-white rounded-3xl shadow-2xl overflow-hidden'>
@@ -67,6 +67,21 @@ const GetApp = () => {
                   variant='btn_dark_green_outline'
                   full={false}
                 />
+                <a
+                  href="https://wa.me/233558773182?text=Hello%20Ezar%20Delivery%20Service,%20I%20would%20like%20to%20schedule%20a%20call%20to%20discuss%20your%20logistics%20services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flexCenter gap-3 rounded-full border border-green-50 bg-green-50 px-8 py-3 text-white hover:bg-green-60 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                >
+                  <Image
+                    src="/phone.png"
+                    alt="WhatsApp"
+                    width={20}
+                    height={20}
+                    className="filter brightness-0 invert"
+                  />
+                  <span className="font-medium">WhatsApp Call</span>
+                </a>
               </div>
             </div>
 
@@ -99,8 +114,8 @@ const GetApp = () => {
                 <div className='bg-white/10 backdrop-blur-sm rounded-xl p-6'>
                   <h4 className='bold-18 text-white mb-4'>Get Started Today</h4>
                   <div className='space-y-2'>
-                    <p className='regular-14 text-white/90'>📞 +233-456-7890</p>
-                    <p className='regular-14 text-white/90'>✉️ operations@ezardelivery.com</p>
+                    <p className='regular-14 text-white/90'>📞 +23355 877 3182</p>
+                    <p className='regular-14 text-white/90'>✉️ ezardelivery2@gmail.com</p>
                   </div>
                 </div>
               </div>

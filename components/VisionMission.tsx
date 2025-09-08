@@ -3,7 +3,7 @@ import React from 'react'
 
 const VisionMission = () => {
   return (
-    <section className='bg-gradient-to-br from-green-10 to-green-20 py-20 overflow-hidden'>
+    <section id="vision-mission" className='bg-gradient-to-br from-green-10 to-green-20 py-20 overflow-hidden'>
       <div className='max-container padding-container relative w-full'>
         
         {/* Header Section */}

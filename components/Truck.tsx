@@ -65,7 +65,7 @@ const OperationCard = ({backgroundImage, title, subtitle, metric, index}: Operat
 
 const Truck = () => {
   return (
-    <section className='bg-white py-20 overflow-hidden'>
+    <section id="operations" className='bg-white py-20 overflow-hidden'>
       <div className='max-container padding-container'>
         
         {/* Header Section */}
