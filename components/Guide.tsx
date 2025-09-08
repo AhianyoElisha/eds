@@ -120,16 +120,16 @@ const Guide = () => {
             <div className='bold-32 text-green-50 mb-2'>50+</div>
             <p className='regular-14 text-gray-50'>Pickup Stations</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-blue-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
-            <div className='bold-32 text-blue-50 mb-2'>24/7</div>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+            <div className='bold-32 text-green-50 mb-2'>24/7</div>
             <p className='regular-14 text-gray-50'>Operations</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-orange-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
-            <div className='bold-32 text-orange-50 mb-2'>98%</div>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+            <div className='bold-32 text-green-50 mb-2'>98%</div>
             <p className='regular-14 text-gray-50'>Success Rate</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-purple-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
-            <div className='bold-32 text-purple-50 mb-2'>2000+</div>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+            <div className='bold-32 text-green-50 mb-2'>2000+</div>
             <p className='regular-14 text-gray-50'>Monthly Deliveries</p>
           </div>
         </div>
