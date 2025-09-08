@@ -60,11 +60,6 @@ const Hero = () => {
                 <div className='flex flex-col w-full gap-3 sm:flex-row animate-slideInUp delay-300'>
                     <Button
                         type='button'
-                        title='Get Quote Now'
-                        variant='btn_green'
-                    />
-                    <Button
-                        type='button'
                         title='How We Work'
                         icon='/play.svg'
                         variant='btn_white_text'

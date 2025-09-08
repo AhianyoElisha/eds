@@ -47,7 +47,7 @@ const Guide = () => {
                 </div>
                 
                 <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-blue-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
-                  <div className='w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
+                  <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
                     <span className='text-white text-sm'>✓</span>
                   </div>
                   <div>
@@ -57,7 +57,7 @@ const Guide = () => {
                 </div>
                 
                 <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-orange-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
-                  <div className='w-8 h-8 bg-orange-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
+                  <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
                     <span className='text-white text-sm'>✓</span>
                   </div>
                   <div>

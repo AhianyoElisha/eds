@@ -164,21 +164,21 @@ const Truck = () => {
                 <span className='regular-14 text-gray-50'>Real-time tracking</span>
               </div>
               
-              <div className='flex items-center gap-3 p-4 rounded-xl bg-blue-50/10 border border-blue-50/20'>
+              <div className='flex items-center gap-3 p-4 rounded-xl bg-green-50/10 border border-green-50/20'>
                 <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
                 <span className='regular-14 text-gray-50'>Verified deliveries</span>
               </div>
               
-              <div className='flex items-center gap-3 p-4 rounded-xl bg-orange-50/10 border border-orange-50/20'>
+              <div className='flex items-center gap-3 p-4 rounded-xl  bg-green-50/10 border border-green-50/20'>
                 <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
                 <span className='regular-14 text-gray-50'>Multi-stop efficiency</span>
               </div>
               
-              <div className='flex items-center gap-3 p-4 rounded-xl bg-purple-50/10 border border-purple-50/20'>
+              <div className='flex items-center gap-3 p-4 rounded-xl  bg-green-50/10 border border-green-50/20'>
                 <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0'>
                   <span className='text-white text-sm'>✓</span>
                 </div>
