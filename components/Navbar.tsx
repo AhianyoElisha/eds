@@ -28,49 +28,51 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-20/50 shadow-sm flexBetween max-container padding-container py-5 animate-slideInDown">
-      <Link href="/" className="hover:scale-105 transition-transform duration-300">
-        <Image src={"/ezarlogo.png"} alt="logo" width={80} height={30} className="hidden sm:block"/>
-        <Image src={"/ezarlogo.png"} alt="logo" width={60} height={20} className="block sm:hidden"/>
-      </Link>
-      
-      {/* Desktop Navigation */}
-      <ul className="hidden h-full gap-12 lg:flex">
-        {NAV_LINKS.map((link, index) => (
-          <button
-            key={link.key}
-            onClick={() => scrollToSection(link.href)}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hover:text-green-50 animate-slideInDown"
-            style={{ animationDelay: `${index * 100}ms` }}
-          >
-            {link.label}
-          </button>
-        ))}
-      </ul>
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm w-full">
+      <div className="max-container padding-container flexBetween py-3 animate-slideInDown">
+        <Link href="/" className="hover:scale-105 transition-transform duration-300">
+          <Image src={"/ezarlogo.png"} alt="logo" width={70} height={25} className="hidden sm:block"/>
+          <Image src={"/ezarlogo.png"} alt="logo" width={50} height={18} className="block sm:hidden"/>
+        </Link>
+        
+        {/* Desktop Navigation */}
+        <ul className="hidden h-full gap-12 lg:flex">
+          {NAV_LINKS.map((link, index) => (
+            <button
+              key={link.key}
+              onClick={() => scrollToSection(link.href)}
+              className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hover:text-green-50 animate-slideInDown"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              {link.label}
+            </button>
+          ))}
+        </ul>
 
-      {/* Desktop Login Button */}
-      <div className="lg:flexCenter hidden animate-slideInRight delay-300">
-        <Button
-          type="button"
-          title="Login"
-          icon="/user.svg"
-          variant="btn_dark_green"
-        />
+        {/* Desktop Login Button */}
+        <div className="lg:flexCenter hidden animate-slideInRight delay-300">
+          <Button
+            type="button"
+            title="Login"
+            icon="/user.svg"
+            variant="btn_dark_green"
+          />
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          onClick={toggleMenu}
+          className="inline-block cursor-pointer lg:hidden hover:scale-110 transition-transform duration-300"
+          aria-label="Toggle menu"
+        >
+          <Image
+            src={isMenuOpen ? "/close.svg" : "/menu.svg"}
+            alt="menu"
+            width={28}
+            height={28}
+          />
+        </button>
       </div>
-
-      {/* Mobile Menu Button */}
-      <button
-        onClick={toggleMenu}
-        className="inline-block cursor-pointer lg:hidden hover:scale-110 transition-transform duration-300"
-        aria-label="Toggle menu"
-      >
-        <Image
-          src={isMenuOpen ? "/close.svg" : "/menu.svg"}
-          alt="menu"
-          width={32}
-          height={32}
-        />
-      </button>
 
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
@@ -82,7 +84,7 @@ const Navbar = () => {
           />
           
           {/* Dropdown Menu */}
-          <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-gray-20 z-50 lg:hidden animate-slideInDown">
+          <div className="absolute top-full right-4 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-gray-20 z-50 lg:hidden animate-slideInDown">
             <div className="p-6">
               {/* Navigation Links */}
               <ul className="space-y-4 mb-6">
