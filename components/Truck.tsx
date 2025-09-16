@@ -15,7 +15,7 @@ const OperationCard = ({backgroundImage, title, subtitle, metric, index}: Operat
   
   return (
     <div className={`
-      relative h-full w-full min-w-[900px] min-h-[500px] ${backgroundImage} 
+      relative h-full w-full min-w-[800px] min-h-[400px] ${backgroundImage} 
       bg-cover bg-center bg-no-repeat rounded-2xl overflow-hidden
       hover:scale-105 transition-all duration-500 animate-scaleIn ${delayClass}
       shadow-xl hover:shadow-2xl group
