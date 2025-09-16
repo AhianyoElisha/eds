@@ -26,36 +26,36 @@ const OperationCard = ({backgroundImage, title, subtitle, metric, index}: Operat
       <div className='relative z-10 flex h-full flex-col justify-between p-12 lg:p-16'>
         
         {/* Header */}
-        <div className='flex items-center gap-6 animate-slideInDown'>
-          <div className='rounded-3xl bg-white/20 backdrop-blur-sm p-6 group-hover:bg-green-50 transition-all duration-300'>
+        <div className='flex items-center gap-4 animate-slideInDown'>
+          <div className='rounded-2xl bg-white/20 backdrop-blur-sm p-3 group-hover:bg-green-50 transition-all duration-300'>
             <Image
               src="/truck-line.svg"
               alt='operation'
-              width={36}
-              height={36}
+              width={24}
+              height={24}
               className='filter brightness-0 invert'
             />
           </div>
-          <div className='flex flex-col gap-2'>
-            <h4 className='bold-24 md:bold-28 text-white group-hover:text-green-20 transition-colors duration-300'>{title}</h4>
-            <p className='regular-18 text-white/80 group-hover:text-white transition-colors duration-300'>{subtitle}</p>
+          <div className='flex flex-col gap-1'>
+            <h4 className='bold-18 text-white group-hover:text-green-20 transition-colors duration-300'>{title}</h4>
+            <p className='regular-14 text-white/80 group-hover:text-white transition-colors duration-300'>{subtitle}</p>
           </div>
         </div>
 
         {/* Bottom Content */}
-        <div className='space-y-6'>
+        <div className='space-y-4'>
           {/* Metric Display */}
-          <div className='bg-white/10 backdrop-blur-sm rounded-3xl p-6 border border-white/20'>
+          <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20'>
             <div className='flex items-center justify-between'>
-              <span className='regular-16 text-white/80'>Current Status</span>
-              <div className='w-3 h-3 bg-green-50 rounded-full animate-pulse'></div>
+              <span className='regular-12 text-white/80'>Current Status</span>
+              <div className='w-2 h-2 bg-green-50 rounded-full animate-pulse'></div>
             </div>
-            <p className='bold-20 md:bold-24 text-white mt-2'>{metric}</p>
+            <p className='bold-16 md:bold-18 text-white mt-1'>{metric}</p>
           </div>
           
           {/* Progress Bar */}
-          <div className='w-full bg-white/20 rounded-full h-2'>
-            <div className='bg-green-50 h-2 rounded-full animate-pulse' style={{width: `${Math.random() * 40 + 60}%`}}></div>
+          <div className='w-full bg-white/20 rounded-full h-1'>
+            <div className='bg-green-50 h-1 rounded-full animate-pulse' style={{width: `${Math.random() * 40 + 60}%`}}></div>
           </div>
         </div>
       </div>
