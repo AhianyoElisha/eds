@@ -28,9 +28,10 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5 animate-slideInDown">
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-20/50 shadow-sm flexBetween max-container padding-container py-5 animate-slideInDown">
       <Link href="/" className="hover:scale-105 transition-transform duration-300">
-        <Image src={"/ezarlogo.png"} alt="logo" width={120} height={40}/>
+        <Image src={"/ezarlogo.png"} alt="logo" width={120} height={40} className="hidden sm:block"/>
+        <Image src={"/ezarlogo.png"} alt="logo" width={60} height={20} className="block sm:hidden"/>
       </Link>
       
       {/* Desktop Navigation */}
