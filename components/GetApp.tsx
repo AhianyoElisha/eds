@@ -7,7 +7,7 @@ const GetApp = () => {
     <section id="contact" className='w-full py-20 bg-gradient-to-r from-green-50 to-green-90'>
       <div className='max-container padding-container'>
         {/* Main CTA Container */}
-        <div className='bg-white rounded-3xl shadow-2xl overflow-hidden'>
+        <div className='bg-white rounded-3xl shadow-sm overflow-hidden'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-0'>
             
             {/* Left Side - Content */}
@@ -71,7 +71,7 @@ const GetApp = () => {
                   href="https://wa.me/233558773182?text=Hello%20Ezar%20Delivery%20Service,%20I%20would%20like%20to%20schedule%20a%20call%20to%20discuss%20your%20logistics%20services."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flexCenter gap-3 rounded-full border border-green-50 bg-green-50 px-8 py-3 text-white hover:bg-green-60 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="flexCenter gap-3 rounded-full border border-green-50 bg-green-50 px-8 py-3 text-white hover:bg-green-60 hover:scale-105 transition-all duration-300 shadow-sm"
                 >
                   <Image
                     src="/phone.png"

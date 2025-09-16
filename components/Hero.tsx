@@ -69,7 +69,7 @@ const Hero = () => {
 
             {/* RIGHT CONTENT */}
             <div className='relative flex flex-1 items-start animate-slideInRight'>
-                <div className='relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 hover:shadow-xl transition-all duration-300 hover:scale-105'>
+                <div className='relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 hover:shadow-md transition-all duration-300 hover:scale-105'>
                     
                     {/* Header */}
                     <div className='flex flex-col'>

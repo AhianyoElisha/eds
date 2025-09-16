@@ -84,7 +84,7 @@ const Navbar = () => {
           />
           
           {/* Dropdown Menu */}
-          <div className="absolute top-full right-4 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-gray-20 z-50 lg:hidden animate-slideInDown">
+          <div className="absolute top-full right-4 mt-2 w-64 bg-white rounded-2xl shadow-lg border border-gray-20 z-50 lg:hidden animate-slideInDown">
             <div className="p-6">
               {/* Navigation Links */}
               <ul className="space-y-4 mb-6">

@@ -45,7 +45,7 @@ const Features = () => {
         </div>
 
         {/* Bottom CTA Section */}
-        <div className='text-center bg-white rounded-3xl p-12 border border-green-50/30 shadow-lg animate-slideInUp delay-400'>
+        <div className='text-center bg-white rounded-3xl p-12 border border-green-50/30 shadow-sm animate-slideInUp delay-400'>
           <h3 className='bold-24 md:bold-32 text-gray-90 mb-4'>
             Ready to Transform Your Logistics?
           </h3>
@@ -54,7 +54,7 @@ const Features = () => {
             Get started today and experience the difference.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
-            <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-lg'>
+            <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-sm'>
               Get Started Now
             </button>
             <button className='border border-green-50 text-green-50 px-8 py-4 rounded-xl hover:bg-green-50 hover:text-white transition-all duration-300 font-medium'>
@@ -95,7 +95,7 @@ const FeatureItem = ({title, icon, variant, description, index}: FeatureItemProp
   return (
     <div className={`
       bg-white ${borderColors[index % 4]} 
-      rounded-2xl p-8 border shadow-lg hover:shadow-2xl 
+      rounded-2xl p-8 border shadow-sm hover:shadow-md 
       transition-all duration-500 transform hover:-translate-y-3 hover:scale-105
       group animate-slideInUp ${delayClass}
     `}>
@@ -104,7 +104,7 @@ const FeatureItem = ({title, icon, variant, description, index}: FeatureItemProp
         <div className={`
           rounded-2xl p-4 ${iconColors[index % 4]} mb-6 
           group-hover:scale-110 transition-all duration-300 
-          shadow-lg group-hover:shadow-xl
+          shadow-sm group-hover:shadow-md
         `}>
           <Image 
             src={icon} 

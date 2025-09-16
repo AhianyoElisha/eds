@@ -36,7 +36,7 @@ const Guide = () => {
               <h3 className='bold-24 text-gray-90 mb-4'>Why Choose Our Network?</h3>
               
               <div className='space-y-4'>
-                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-green-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
                   <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
                     <span className='text-white text-sm'>✓</span>
                   </div>
@@ -46,7 +46,7 @@ const Guide = () => {
                   </div>
                 </div>
                 
-                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-blue-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-blue-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
                   <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
                     <span className='text-white text-sm'>✓</span>
                   </div>
@@ -56,7 +56,7 @@ const Guide = () => {
                   </div>
                 </div>
                 
-                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-orange-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+                <div className='flex items-start gap-4 p-4 rounded-xl bg-white border border-orange-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
                   <div className='w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-1'>
                     <span className='text-white text-sm'>✓</span>
                   </div>
@@ -71,7 +71,7 @@ const Guide = () => {
 
           {/* Right Side - Visual */}
           <div className='relative animate-slideInRight delay-400'>
-            <div className='relative rounded-2xl overflow-hidden shadow-2xl'>
+            <div className='relative rounded-2xl overflow-hidden shadow-md'>
               <Image
                 src="/image-7.jpeg"
                 alt='logistics operations'
@@ -81,7 +81,7 @@ const Guide = () => {
               />
               
               {/* Overlay Card */}
-              <div className='absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-xl animate-scaleIn delay-500'>
+              <div className='absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-md animate-scaleIn delay-500'>
                 <div className='flex items-center gap-4 mb-4'>
                   <Image
                     src="/meter.svg"
@@ -116,19 +116,19 @@ const Guide = () => {
 
         {/* Stats Section */}
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 animate-slideInUp delay-600'>
-          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
             <div className='bold-32 text-green-50 mb-2'>50+</div>
             <p className='regular-14 text-gray-50'>Pickup Stations</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
             <div className='bold-32 text-green-50 mb-2'>24/7</div>
             <p className='regular-14 text-gray-50'>Operations</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
             <div className='bold-32 text-green-50 mb-2'>98%</div>
             <p className='regular-14 text-gray-50'>Success Rate</p>
           </div>
-          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-lg transition-all duration-300'>
+          <div className='text-center p-6 rounded-2xl bg-white border border-green-50/30 shadow-sm hover:shadow-md transition-all duration-300'>
             <div className='bold-32 text-green-50 mb-2'>2000+</div>
             <p className='regular-14 text-gray-50'>Monthly Deliveries</p>
           </div>

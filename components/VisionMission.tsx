@@ -32,7 +32,7 @@ const VisionMission = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12'>
           
           {/* Vision Card */}
-          <div className='group relative bg-white rounded-3xl p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 animate-slideInLeft'>
+          <div className='group relative bg-white rounded-3xl p-8 lg:p-10 shadow-sm hover:shadow-md transition-all duration-500 animate-slideInLeft'>
             <div className='absolute inset-0 bg-gradient-to-br from-green-50/5 to-green-60/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
             
             <div className='relative z-10'>
@@ -65,7 +65,7 @@ const VisionMission = () => {
           </div>
 
           {/* Mission Card */}
-          <div className='group relative bg-white rounded-3xl p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 animate-slideInRight delay-200'>
+          <div className='group relative bg-white rounded-3xl p-8 lg:p-10 shadow-sm hover:shadow-md transition-all duration-500 animate-slideInRight delay-200'>
             <div className='absolute inset-0 bg-gradient-to-br from-green-50/5 to-green-60/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
             
             <div className='relative z-10'>
@@ -107,7 +107,7 @@ const VisionMission = () => {
             <p className='regular-16 text-gray-50 mb-6 max-w-2xl mx-auto'>
               Join thousands of satisfied customers who trust Ezar Delivery Service for their logistics needs.
             </p>
-            <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-lg'>
+            <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-sm'>
               Get Started Today
             </button>
           </div>
