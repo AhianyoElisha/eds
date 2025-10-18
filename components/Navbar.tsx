@@ -50,14 +50,14 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Login Button */}
-        <div className="lg:flexCenter hidden animate-slideInRight delay-300">
+        {/* <div className="lg:flexCenter hidden animate-slideInRight delay-300">
           <Button
             type="button"
             title="Login"
             icon="/user.svg"
             variant="btn_dark_green"
           />
-        </div>
+        </div> */}
 
         {/* Mobile Menu Button */}
         <button
@@ -102,14 +102,14 @@ const Navbar = () => {
               </ul>
               
               {/* Mobile Login Button */}
-              <div className="pt-4 border-t border-gray-20">
+              {/* <div className="pt-4 border-t border-gray-20">
                 <Button
                   type="button"
                   title="Login"
                   icon="/user.svg"
                   variant="btn_dark_green"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </>
