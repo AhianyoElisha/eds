@@ -61,12 +61,6 @@ const GetApp = () => {
 
               {/* CTA Buttons */}
               <div className='flex flex-col sm:flex-row gap-4 animate-slideInUp delay-300'>
-                <Button
-                  type='button'
-                  title='Schedule Call'
-                  variant='btn_dark_green_outline'
-                  full={false}
-                />
                 <a
                   href="https://wa.me/233558773182?text=Hello%20Ezar%20Delivery%20Service,%20I%20would%20like%20to%20schedule%20a%20call%20to%20discuss%20your%20logistics%20services."
                   target="_blank"
@@ -80,7 +74,7 @@ const GetApp = () => {
                     height={20}
                     className="filter brightness-0 invert"
                   />
-                  <span className="font-medium">WhatsApp Call</span>
+                  <span className="font-medium">WhatsApp</span>
                 </a>
               </div>
             </div>
