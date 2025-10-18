@@ -54,9 +54,6 @@ const Features = () => {
             Get started today and experience the difference.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
-            <button className='bg-green-50 text-white px-8 py-4 rounded-xl hover:bg-green-60 transition-all duration-300 font-medium hover:scale-105 shadow-sm'>
-              Get Started Now
-            </button>
             <button className='border border-green-50 text-green-50 px-8 py-4 rounded-xl hover:bg-green-50 hover:text-white transition-all duration-300 font-medium'>
               Learn More
             </button>
