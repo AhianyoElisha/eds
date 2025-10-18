@@ -1,0 +1,15 @@
+# Robots.txt for Ezar Delivery Service
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://edsghana.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 0
+
+# Disallow any admin or private areas (if you have any in the future)
+# Disallow: /admin/
+# Disallow: /api/private/

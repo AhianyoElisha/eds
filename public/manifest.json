@@ -1,0 +1,27 @@
+{
+  "name": "Ezar Delivery Service - Professional Logistics Solutions",
+  "short_name": "Ezar Delivery",
+  "description": "Leading delivery and logistics service in Ghana with 15+ trucks and 50+ pickup stations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#30AF5B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/ezarlogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ezarlogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["logistics", "transportation", "delivery"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
